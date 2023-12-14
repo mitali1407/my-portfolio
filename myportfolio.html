@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mitali's Portfolio</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f8f8f8;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .main-content {
+            display: flex;
+            max-width: 1200px;
+            width: 100%;
+            margin: 20px;
+        }
+
+        .column {
+            flex: 1;
+            margin: 10px;
+        }
+
+        .section-box {
+            border-radius: 10px;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        header {
+            background-color: #5fa1cd;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+
+        header p {
+            margin-top: 5px;
+            font-style: italic;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .skills ul,
+        .projects ul,
+        .contact ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .skills li,
+        .projects li,
+        .contact li {
+            margin: 10px 0;
+        }
+
+        .projects li {
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 10px;
+        }
+
+        footer {
+            background-color: #a0bbcd;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            border-radius: 10px;
+            width: 100%;
+        }
+
+        /* Colors for each section */
+        #about {
+            background-color: #c6e1e8;
+        }
+
+        #skills {
+            background-color: #e3d2b6;
+        }
+
+        #projects {
+            background-color: #b4dfc6;
+        }
+
+        #resume {
+            background-color: #e7c2bd;
+        }
+
+        #contact {
+            background-color: #c7a3d6;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Mitali Pagarware</h1>
+        <p>Web Developer</p>
+    </header>
+
+    <div class="main-content">
+        <div class="column">
+            <div class="section-box" id="about">
+                <section>
+                    <h2>About Me</h2>
+                    <img src="myimage.png" alt="Mitali Pagarware">
+                    <p>I am a pre-final year student in BTech Electronics and Telecommunications Department. I am deeply driven by Web Development with vast knowledge of HTML, CSS, and Javascript. I exhibit great leadership skills and I manage to create an environment of love and support around me.</p>
+                </section>
+            </div>
+
+            <div class="section-box" id="skills">
+                <section>
+                    <h2>Skills</h2>
+                    <div class="skills">
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>C++</li>
+                            
+                        </ul>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="section-box" id="projects">
+                <section>
+                    <h2>Projects</h2>
+                    <div class="projects">
+                        <ul>
+                            <li>
+                                <h3>1. Leveraging Correlation Analysis to Enhance Lung
+                                    Cancer Detection with KNN and CNN</h3>
+                                <p>To improve the accuracy of already existing KNN and CNN algorithms, the proposed algorithm uses both the methods. The classifier can be utilized
+                                    to create an accurate and efficient lung cancer diagnosis test.</p>
+                                <a href="https://github.com/mitali1407/Leveraging-Correlation-Analysis-to-Enhance-Lung-Cancer-Detection-with-KNN-and-CNN">GitHub Link</a>
+                            </li>
+                            <li>
+                                <h3>2. Rotten Onion Detection Using Electronic Nose</h3>
+                                <p>This project uses MQ Gas Sensor to detect the presence of ammonia and sulphor. Excessive presence of which if crossed the threshold, declares that the sample is rotten.</p>
+                                
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </section>
+            </div>
+
+            <div class="section-box" id="resume">
+                <section>
+                    <h2>Resume</h2>
+                    <p><a href="your-resume.pdf" target="_blank">Download Resume (PDF)</a></p>
+                </section>
+            </div>
+
+            <div class="section-box" id="contact">
+                <section>
+                    <h2>Contact</h2>
+                    <div class="contact">
+                        <ul>
+                            <li>Email: mitali.pagarware.btech2021@sitpune.edu.in</li>
+                            <li>Phone: 9021630516</li>
+                            
+                        </ul>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Mitali Pagarware. All rights reserved.</p>
+        
+    </footer>
+</body>
+</html>
